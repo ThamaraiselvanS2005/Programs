@@ -6,6 +6,7 @@ public class Swap {
     public static void main (String args[]) {
 
 //
+        @SuppressWarnings("resource")//extra content added by vs code
         Scanner scan = new Scanner(System.in);
         System.out.println("enter number 1 = ");
         int num1 = scan.nextInt();
