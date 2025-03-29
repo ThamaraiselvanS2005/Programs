@@ -1,6 +1,6 @@
 package Programs;
 
-
+//This code beats 100%
 import java.util.Arrays;
 
 public class Lc75sortColour {
@@ -38,6 +38,7 @@ private static void swap(int[] nums ,int i , int j) {
 
 }
 /*
+this code beats 14%
 public static void sortColors(int[] nums) {
         Arrays.sort(nums);
         System.out.println(Arrays.toString(nums));
