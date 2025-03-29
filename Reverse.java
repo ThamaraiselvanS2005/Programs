@@ -11,7 +11,7 @@ public class Reverse{
         int end = arr.length-1;
         while(start < end)
         {
-            rev(arr,start,end);
+            rev(arr,start,end);//normal swaping happen 
             start++;
             end--;
         }
