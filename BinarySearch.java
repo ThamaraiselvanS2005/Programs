@@ -7,8 +7,9 @@ public class BinarySearch {
         int result = search(a, key);
       if(result == -1){
         System.out.println("Element not found in the array");
-      
+      else{
         System.out.println("elment founde at index : " + result);
+      }
 
     }
 
