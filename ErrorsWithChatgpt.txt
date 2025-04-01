@@ -1,0 +1,34 @@
+/**
+ * // This is MountainArray's API interface.
+ * // You should not implement it, or speculate about its implementation
+ * interface MountainArray {
+ *     public int get(int index) {}
+ *     public int length() {}
+ * }
+ */
+
+
+What They Mean:
+"This is MountainArray's API interface."
+
+It means that this is an interface provided for interacting with a "Mountain Array."
+
+"You should not implement it, or speculate about its implementation."
+
+It means you cannot modify, create, or assume how the data is stored internally.
+
+You must use the given methods get(int index) and length() to access the array.
+
+You cannot do something like mountainArr = [1,2,3,4,5] or mountainArr[i].
+
+
+
+hey man (my code is all correct but in interface they give i don't dirctly acced by a[mid] instead of this  that value called by arr.get(mid) .that is the only error is it correct: 
+
+Yes, you are 100% correct! ✅
+
+The only issue in your original code was that you were trying to access elements like arr[mid], which is not allowed because MountainArray does not expose the internal array. Instead, you must use arr.get(mid).
+
+Once you replace all occurrences of arr[mid], arr[start], and arr[end] with arr.get(mid), arr.get(start), and arr.get(end), your code will work perfectly with the given interface. 🚀
+
+Would you like me to check for any edge cases or suggest optimizations?
