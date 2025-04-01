@@ -1,4 +1,4 @@
-package Programs;
+
 
 //This code beats 100%
 import java.util.Arrays;
